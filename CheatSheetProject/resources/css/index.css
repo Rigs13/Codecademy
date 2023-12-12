@@ -1,0 +1,59 @@
+* {
+    font-family: 'Junge', cursive;
+}
+
+.logo {
+    flex-grow: 1;
+    padding-right: 100px;
+}
+
+.navigation {
+    background-color: rgba(7, 156, 241, 1);
+    justify-content: space-around;
+    top: 0px;
+    height: 4.44em;
+    align-items: center;
+    padding: 0 20%;
+    display: flex;
+    position: fixed;
+    width: 75%;
+}
+
+.navigation li {
+    display: inline;
+    height: 50px;
+    position: relative;
+}
+
+.header li a {
+    text-decoration: none;
+}
+
+body {
+    margin-top: 100px;
+    background-color: rgba(61, 60, 61, .75);
+}
+
+table td {
+    border: 2px solid rgb(68, 68, 68);
+    background-color: rgba(7, 156, 241, .75);
+}
+
+.tags-table-head td {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.tag-col {
+    text-align: center;
+}
+.text-table {
+    background-color: white;
+}
+
+th {
+    color: white;
+    background-color: black;
+    text-align: center;
+}

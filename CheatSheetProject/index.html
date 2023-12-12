@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Cheat Sheet</title>
+    <link href="./resources/css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<!--Navigation for internal links to the page (HTML/CSS)-->
+<header>
+    <nav class="navigation">
+    <span class="logo">HTML/CSS Cheat Sheet</span>
+        <ul>
+            <li><a href="#html-section">HTML</a></li>
+            <li><a href="#css-section">CSS</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="html-container" id="html-section">
+        <h1 class="html-header">HTML</h1>
+
+        <div class="tags-container">
+            <h2 class="tags-header">Common HTML Tags</h2>
+            
+            <table class="tags-table">
+                <thead class="tags-table-head">
+                    <tr>
+                        <td>Tags</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag-col">&#60head&#62</td>
+                        <td>Used to contain all the head elements in the HTML file, such as title, style, meta, etc...</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60body&#62</td>
+                        <td>Defines the body of the HTML document (main content).</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60h1&#62</td>
+                        <td>h1 through h6 defines heading tags based on importance (lowest to highest). Aids in creating the flow of the content.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60p&#62</td>
+                        <td>Defines a paragraph element within the HTML document. Usually placed following headings.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60a&#62</td>
+                        <td>Denotes anchors for wrapping around elements. Handy for adding clickable links to specific sections with href attribute.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60ul&#62</td>
+                        <td>Used with &#60li&#62 tags for creating an unordered list of elements. Can also be ordered list with &#60ol&#62 tags.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60!--Statement--&#62</td>
+                        <td>Common notation for adding comments into a HTML document.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60img&#62</td>
+                        <td>Used to add images directly into HTML documents.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-col">&#60link&#62</td>
+                        <td>Used to link content from an external source. Helpful with CSS styling.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="structure-container">
+            <h2 class="structure-header">Common HTML Structures</h2>
+            <div class="structure-tb-container">
+                <h3 class="structure-sub-header">Table HTML Format</h3>
+                <table class="structure-table">
+                    <thead>
+                        <tr>
+                            <th>Tags</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tag-col">&#60table&#62</td>
+                            <td>Starts the table element for creation. Must include closing tag after table is created.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag-col">&#60thead&#62</td>
+                            <td>Creates a header section for the table, common for creating labels for the table.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag-col">&#60tr&#62</td>
+                            <td>Creates a row for the &#60td&#62 to store table data.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag-col">&#60td&#62</td>
+                            <td>This tag is used to store the data within the context of the table.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag-col">&#60th&#62</td>
+                            <td>Similar to a &#60td&#62 tag, except for creating label headings.</td>
+                        </tr>
+                        <tr>
+                            <td class="tag-col">&#60tfoot&#62</td>
+                            <td>Similar to the &#60thead&#62, used to create ending labels for the bottom of the table (Totals, etc...).</td>
+                        </tr>
+                        <tr>
+                            <td class="tag-col"><em>colspan=""</em></td>
+                            <td>Attribute that allows for a column to span more than one section.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+<!--End of the HTML Section-->
+    <div class="css-container" id="css-section">
+        <h1 class="css-header">CSS</h1>
+    </div>
+<!--End of the CSS Section-->
+</body>
+</html>
